@@ -1,0 +1,41 @@
+@import '../mixins.scss';
+
+@media(min-width: 920px){
+    .carousel-card{
+        &__container{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: center;
+        }
+        &__image{
+            width: 543px;
+        }
+        &__button{
+            transition: box-shadow 0.5s;
+            &:hover, &:focus{
+                box-shadow: 0px 0px 10px rgba(28, 91, 255, 0.5), 0px 2px 0px rgba(0, 0, 0, 0.016);
+                transition: box-shadow 0.5s;
+            }
+        }
+        &__left-side{
+            padding-left: 10px;
+        }
+        &__text{
+            width: 400px;
+            &:nth-child(1){
+                & span{
+                    font-size: 54px !important;
+                }
+            }
+            &:nth-child(2), &:nth-child(3){
+                & span:first-child{
+                    font-size: 54px !important;
+                }
+            }
+            & span:first-of-type{
+                line-height: 105.7%;
+            }
+        }
+    }
+}

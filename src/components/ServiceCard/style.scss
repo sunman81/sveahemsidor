@@ -1,0 +1,65 @@
+@import "../mixins.scss";
+
+.service-card{
+    &__line{
+        border: 1px solid #E5E5E5;
+        width: 85%;
+        margin: 0 0 0 10%;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: rem(36px);
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 rem(24px);
+        align-items: flex-start;
+    }
+    &__double-type-second-col{
+        width: 140px;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        & p:first-child{
+            font-size: rem(16px);
+            font-weight: 700;
+            text-align: left;
+        }
+        & p:nth-child(2){
+            font-size: rem(20px);
+        }
+    }
+}
+
+@media(min-width: 920px){
+    .service-card{
+        &__supercontainer{
+            display: flex;    
+        }
+        &__column p:first-of-type{
+            display: none;
+        }
+        &__column{
+            min-width: 50px;
+        }
+        &__container{
+            width: 60%;
+        }
+        &__title{
+            width: 320px;
+        }
+        &__line{
+            width: 100%;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        &__double-type-second-col{
+            width: 160px;
+        }
+    }
+}
