@@ -5,7 +5,7 @@
   display: flex !important;
   padding-left: 31px;
   padding-top: 22px;
-  & h1 {
+  & img {
     margin: 0 0 0 10px;
   }
 }
@@ -13,7 +13,7 @@
 @media (min-width: 920px) {
   .header_mobile {
     display: none;
-    & h1 {
+    & img {
       display: none;
     }
   }
