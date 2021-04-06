@@ -32,7 +32,7 @@ export const Header: React.FC<Props> = ({ siteTitle = "sveahemsidor." }) => {
           }}
         >
           <Image
-            style={{ minWidth: 150, minHeight: 20, marginLeft: 30 }}
+            style={{ minWidth: 150, minHeight: 20, marginLeft: 10 }}
             src="svealogotype.png"
             alt="sveahemsidor."
           />
@@ -52,7 +52,7 @@ export const Header: React.FC<Props> = ({ siteTitle = "sveahemsidor." }) => {
             }}
           >
             <Image
-              style={{ minWidth: 200, minHeight: 20 }}
+              style={{ minWidth: 250, minHeight: 20 }}
               src="svealogotype.png"
               alt="sveahemsidor."
             />

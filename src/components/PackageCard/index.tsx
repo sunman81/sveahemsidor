@@ -25,7 +25,7 @@ export const PackageCard: React.FC<Props> = ({ icon, title, price, services }) =
             </div>
             <div className="package-card__services">
                 {services.map((s, i) => (
-                    <p key={i + s.substr(0, 2)} style={{margin: 0}}><CheckOutlined style={{color: "#FFA800", marginRight: "8.58px", width: "11.84px"}} />{s}</p>
+                    <p key={i + s.substr(0, 2)} style={{margin: 0}}><CheckOutlined style={{color: "#ffff00", marginRight: "8.58px", width: "11.84px"}} />{s}</p>
                 ))}
             </div>
             <Button style={{backgroundColor: "#1C5BFF", color: "white", width: "80%", margin: "27px", fontSize: "16px"}}>{">"} Beställ</Button>

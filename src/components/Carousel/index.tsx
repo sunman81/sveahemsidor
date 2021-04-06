@@ -10,7 +10,7 @@ export const CarouselComponent = () => {
             <CarouselCard imageSrc="First-carousel-bg.png" imageAlt="sveahemsidor" buttonText="Skapa Hemsida" imageLoading="eager"
                     text={<p className="carousel-card__text" style={{lineHeight: "20px"}}>
                         <span style={{fontFamily: "Raleway", fontSize: `${rem(20)}`, fontWeight: 700, color: "#1C5BFF" }}>Välkommen hem!</span> <br />
-                        <span style={{fontFamily: "Raleway", fontSize: `${rem(16)}`, lineHeight: 0.5 }}>Sveahemsidor tillhandahåller Sveriges mest kostnadseffektiva webblösningar för småföretagare och E-handlare. Flytta er hemsida till oss redan idag så sköter vi hela bytet åt er samt att vi bjuder på månadskostnaden under uppsägningstiden från er befintliga leverantör</span>
+                        <span style={{fontFamily: "Raleway", fontSize: `${rem(16)}` }}>Sveahemsidor tillhandahåller Sveriges mest kostnadseffektiva webblösningar för småföretagare och E-handlare. Flytta er hemsida till oss direkt så sköter vi hela bytet åt er och bjuder på månadskostnaden under uppsägningstiden!</span>
                     </p>} />
             <CarouselCard imageSrc="Second-carousel-bg.png" imageAlt="webbhotell" buttonText="Läs Mer Webbhotell" 
                     text={<p className="carousel-card__text">
