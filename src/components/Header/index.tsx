@@ -106,12 +106,26 @@ export const Header: React.FC<Props> = ({ siteTitle = "sveahemsidor." }) => {
                 cursor: "pointer",
                 marginRight: 20,
               }}
+              to="/projekt"
+            >
+              Projekt
+            </Link>
+          </p>
+          <p>
+            <Link
+              className="header__link_desktop"
+              style={{
+                fontSize: 18,
+                color: "black",
+                cursor: "pointer",
+                marginRight: 20,
+              }}
               to="/hemsidapro"
             >
               Hemsida Pro
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link
               className="header__link_desktop"
               style={{ fontSize: 18, color: "black", cursor: "pointer" }}
@@ -119,7 +133,7 @@ export const Header: React.FC<Props> = ({ siteTitle = "sveahemsidor." }) => {
             >
               FAQ
             </Link>
-          </p>
+          </p> */}
           <p>
             <Link
               className="header__link_desktop"
